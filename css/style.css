@@ -1,0 +1,26 @@
+html, body { background: #000; overflow-x: hidden; }
+body { font: 12px/16px Helvetica, Arial, sans-serif; color: #d6b59d; }
+
+h1 { font-family: "AquilineRegular"; font-size: 70px;  margin-bottom: 90px; white-space: nowrap; text-indent: -48px; }
+  h1 a { color: #fff; }
+  h1 span { position: relative; left: 20px; }
+p, li, h2 { font: 18px/24px Palatino, Georgia, Times, "Times New Roma", serif; margin-bottom: 12px; font-style: italic; }
+
+h2 { margin-top: 60px; margin-bottom: 6px; }
+
+a { color: #aa7e54; text-decoration: none; -webkit-transition: color .25s ease-in-out; -moz-transition: color .25s ease-in-out;}
+a:hover { color: #fff;  }
+
+#page-container { width: 400px; position: absolute; top: 10%; right: 70px; padding: 2em 0 0; overflow: visible; }
+
+#footer p { margin: 0; }
+#footer span { font-size: 12px; position: relative; top: -2px; padding: 0 4px; }
+
+/* jazz */
+.jazz #page-container{ right: auto; left: 8%; width: 40%; }
+.playlist { margin-bottom: 60px; }
+  .playlist li { margin-bottom: 5px; }
+
+/* improv */
+.improv #page-container { margin: 20px auto 0; width: 700px; position: static; }
+#movie-container { border: 1px solid #333; width: 700px; height: 464px; }
